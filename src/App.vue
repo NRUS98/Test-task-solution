@@ -17,7 +17,8 @@ onMounted(async () => {
 
 <style>
 #scichart-root {
-  width: 100%;
-  height: 100%;
+  width: 800px;
+  height: 500px;
+  margin: auto;
 }
 </style>
