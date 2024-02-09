@@ -4,8 +4,8 @@
 
 <script setup>
 import {onMounted} from "vue";
-import {initSciChart} from "../utils/scichart";
-import {filterDataByTime} from "../utils/dataset";
+import {initSciChart} from "./utils/scichart";
+import {filterDataByTime} from "./utils/dataset";
 import {getData} from "../api";
 
 onMounted(async () => {
